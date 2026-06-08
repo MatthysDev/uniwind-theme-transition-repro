@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "uniwind-transition-not-working",
+    "slug": "uniwind-transition-not-working",
+    "version": "1.0.0",
+    "newArchEnabled": true,
+    "scheme": "uniwindreproNotWorking",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "bundleIdentifier": "dev.matthys.uniwindrepro.notworking",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "dev.matthys.uniwindrepro.notworking"
+    },
+    "plugins": ["expo-router"]
+  }
+}

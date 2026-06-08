@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+@import 'uniwind';
+
+/* Static tokens (never flip between themes). */
+@theme {
+  --color-primary: #e2fe54;
+}
+
+/* Flipping tokens — both variants must declare the SAME keys. */
+@layer theme {
+  :root {
+    @variant light {
+      --color-background: #ffffff;
+      --color-foreground: #111111;
+      --color-card: #f1f1f4;
+    }
+    @variant dark {
+      --color-background: #111214;
+      --color-foreground: #ffffff;
+      --color-card: #24262b;
+    }
+  }
+}
